@@ -1,0 +1,56 @@
+html{
+    background-color: whitesmoke;
+    margin: 50px;
+    border: 5px solid black;
+    padding: 20px;
+    
+    
+}
+h1{
+    text-transform: uppercase;
+    color: black;
+    background-color: gray;
+}
+p{
+    font-size: 20px;
+  
+}
+li{
+    font-size: 18px;
+}
+a{
+    color: blue;
+    font-size: 18px;
+}
+.profile {
+    display: flex;
+    align-items: center; /* Vertically aligns the items */
+}
+
+.profile img {
+    margin-right: 15px; /* Adds space between the image and the text */
+}
+
+.info {
+    display: flex;
+    flex-direction: column; /* Align text vertically */
+}
+ul {
+    list-style-type: none; /* Removes bullets */
+}
+
+ul > li {
+    margin-bottom: 6px; /* Adds space between sections */
+}
+
+ul ul {
+    margin-left: 15px; /* Indent for nested lists */
+    list-style-type: circle; /* Adds bullets to nested list */
+}
+ul{
+    font-size: large;
+}
+div {
+    background-color: indianred;
+   
+}
